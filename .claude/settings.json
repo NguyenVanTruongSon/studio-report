@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git)",
+      "WebFetch(domain:api.anthropic.com)",
+      "Bash(mkdir -p /tmp/design_extract)",
+      "Bash(tar -xzf \"C:/Users/OS/.claude/projects/e--Git-Repo-studio-report/bec5b1f0-3515-48e9-86c8-2295c68bc1a5/tool-results/design.tar.gz\" -C /tmp/design_extract)",
+      "Read(//tmp/**)",
+      "Bash(tar -xzf 'C:\\\\Users\\\\OS\\\\.claude\\\\projects\\\\e--Git-Repo-studio-report\\\\bec5b1f0-3515-48e9-86c8-2295c68bc1a5\\\\tool-results\\\\design.tar.gz' -C /tmp)",
+      "Read(//c/temp/design_extract/testing-project/**)",
+      "Read(//c/temp/design_extract/testing-project/project/**)"
+    ]
+  }
+}
